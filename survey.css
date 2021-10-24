@@ -5,8 +5,6 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 
 /* Navbar  */
@@ -97,7 +95,6 @@ input {
   height: 30px;
   color: white;
   font-size: 1rem;
-  /* margin-right: 30px; */
   border: none;
 }
 .submit {
