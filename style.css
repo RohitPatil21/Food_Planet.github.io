@@ -14,6 +14,8 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.993),rgba(54, 54, 54, 0.205));
     position: fixed;
     width: 100%;
+    top: 0;
+    overflow: hidden;
 }
 .shopname {
   float: left;
@@ -31,20 +33,26 @@ body{
   font-size: 1.1rem;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-a{
+.menuanchor{
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
-#orderbutton{
+.menuanchor:hover{
+  opacity: 60%;
+}
+#surveybutton{
     width: 25%;
     height: 35px;
     background-color: yellow;
     color: rgb(14, 13, 13);
-    font-size: 1rem;
+    font-size: 1.3rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+#surveybutton:hover{
+  background-color: rgb(59, 255, 10);
 }
 .fas{
     margin-right: 10px;
@@ -53,9 +61,10 @@ a{
 
 /* Style for Header Section  */
 #header{
-    background-image: url("https://source.unsplash.com/CK6tjAIMJWM/1600x900");
-    background-size:cover;
-    height: 80vh;
+    /* background-image: url("https://source.unsplash.com/CK6tjAIMJWM/1600x900"); */
+    background-image: url("https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:100% 100%;
+    height: 90vh;
     width: 100%;
     background-attachment: fixed;
     background-position:center;
@@ -173,6 +182,9 @@ a{
   margin-top: 10px;
   box-shadow: 5px 5px 15px rgb(34, 1, 1);
   cursor: pointer;
+}
+.explorebutton:hover{
+  background-color: rgb(59, 255, 10);
 }
 
 

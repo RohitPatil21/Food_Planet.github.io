@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <title>Survey</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar  -->
+    <div id="navbar">
+        <div class="shopname">
+            <h2>Food-<span style="color: white;">Planet</span></h2>
+        </div>
+        <div class="menu">
+            <a href="index.html" class="menuanchor" target="_blank">Home</a>
+            <a href="https://unsplash.com/s/photos/pizza" target="_blank" class="menuanchor">Pizza</a>
+            <a href="https://unsplash.com/s/photos/burger" target="_blank" class="menuanchor">Burger</a>
+            <a href="https://unsplash.com/s/photos/french%20fries" target="_blank" class="menuanchor">French-Fries</a>
+            <a href="https://unsplash.com/s/photos/cold-drinks" target="_blank" class="menuanchor">Soft-Drinks</a>
+        </div>
+    </div>
+
+
+    <!-- Heading Section  -->
+    <div class="headingdiv">
+        <h1>Please Report Your Survey Here</h1>
+    </div>
+
+
+    <!-- Survey Form Section  -->
+    <div class="surveydiv">
+
+        <form action="">
+
+            <table>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" required minlength="3" placeholder="Enter Your Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Mobile</label></td>
+                    <td><input type="phon" required minlength="10" maxlength="10"
+                            placeholder="Enter Your Mobile Number"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" required placeholder="Enter Your Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Which Food Did You Like More</label></td>
+                    <td>
+                        <input type="checkbox" class="checkbox" />
+                        <label>Pizza</label>
+                        <input type="checkbox" class="checkbox" />
+                        <label>Burger</label>
+                        <input type="checkbox" class="checkbox" />
+                        <label>French Fries</label>
+                        <input type="checkbox" class="checkbox" />
+                        <label>Soft Drinks</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Did You Like Our Services</label></td>
+                    <td>
+                        <input type="radio" name="yes/no" id="" class="radio">
+                        <label for="">Yes</label>
+                        <input type="radio" name="yes/no" id="" class="radio">
+                        <label for="">No</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Write Your Feedback</label></td>
+                    <td><textarea name="" id="" cols="30" rows="5" required
+                            placeholder="Write Your Feedback Here........."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="reset" class="reset">Reset</button>
+                        <button type="submit" class="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
